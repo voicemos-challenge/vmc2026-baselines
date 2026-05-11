@@ -12,3 +12,6 @@ Please follow the "Quick Prediction" instructions on their GitHub README
 to predict QMOS for wavs in your wav directory in the data distribution:
 
    https://github.com/sarulab-speech/UTMOS22
+
+Note that UTMOS expects input at a 16kHz sampling rate; please down-sample 
+your audio samples accordingly.
