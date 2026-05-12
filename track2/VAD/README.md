@@ -80,3 +80,16 @@ The script writes a CSV with four columns:
 - If your audio directory is different, pass `--base-path`.
 - If your metadata file is different, pass `--metadata-path`.
 - Gemini API Free Tier Quota: When using the Google Gemini API on the free tier, you may encounter quota or rate limits during execution. This is expected and not caused by the script. Here are some tips to handle this: (1) Reduce --workers to avoid hitting limits; (2) Increase --retry-sleep; (3) Run in smaller batches with --start-row / --end-row. For large-scale evaluation, the free tier may be insufficient and a paid plan is recommended.
+- 
+## Output Consistency
+
+In some cases, outputs may be incomplete or missing fields. This is common in Google Gemini API outputs. For example:
+
+```json
+{"audio": "emoknob_0012_000750.wav", "intended_label": "Happy", "vad_analysis": ""}
+
+Recommendations:
+
+Check the generated CSV for missing or invalid entries
+Re-run affected samples as needed
+Optionally refine prompts or post-processing
