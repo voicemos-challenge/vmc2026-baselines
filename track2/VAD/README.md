@@ -87,6 +87,6 @@ In some cases, outputs may be incomplete or missing fields. This is common in Go
 
 For example:
 ```json
-{"audio": "emoknob_0012_000750.wav", "intended_label": "Happy", "vad_analysis": ""}
+{"audio": "001.wav", "intended_label": "Happy", "vad_analysis": ""}
 
 
