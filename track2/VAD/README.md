@@ -83,13 +83,10 @@ The script writes a CSV with four columns:
 - 
 ## Output Consistency
 
-In some cases, outputs may be incomplete or missing fields. This is common in Google Gemini API outputs. For example:
+In some cases, outputs may be incomplete or missing fields. This is common in Google Gemini API outputs. Recommendation: Check the generated CSV for missing or invalid entries and re-run affected samples as needed (optionally refine prompts or post-processing).
 
+For example:
 ```json
 {"audio": "emoknob_0012_000750.wav", "intended_label": "Happy", "vad_analysis": ""}
 
-Recommendations:
 
-Check the generated CSV for missing or invalid entries
-Re-run affected samples as needed
-Optionally refine prompts or post-processing
