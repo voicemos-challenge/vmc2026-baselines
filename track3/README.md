@@ -117,21 +117,3 @@ uv run python inference.py --data-root <DATA_ROOT> --csv-path <DATA_ROOT>/sets/d
 ## Acknowledgement and citation
 
 This repo was a subset of [sheet](https://github.com/unilight/sheet), an open-source repo for speech quality assessment research. In addition, Gemini 3.1 Pro and ChatGPT 5.5 were used to assist the implementation of this repo.
-
-Should you have any questions, please open an issue.
-
-Should you use this baseline in your research, please cite the following:
-
-```bibtex
-@misc{vmc2026-track3-baseline,
-  author = {Wen-Chin Huang},
-  title = {Codebase for the baseline system of the VoiceMOS Challenge 2026 Track 3.},
-  year = {2026},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/unilight/vmc2026-track3-baseline}}
-}
-```
-
-Author: Wen-Chin Huang (Nagoya University)  
-wen.chinhuang@g.sp.m.is.nagoya-u.ac.jp

@@ -25,6 +25,21 @@ Please refer to the `track2` directory.
 ## Track 3 baseline
 Please refer to the `track3` directory.
 
+## Citation
+
+Should you use this baseline in your research, please cite the following:
+
+```bibtex
+@misc{vmc2026-baselines,
+  author = {Wen-Chin Huang, Wei Wang, Marvin Sach, Xiaoxue Gao, Nicholas Sanders, Erica Cooper, Tomoki Toda},
+  title = {Codebase for the baseline systems of the VoiceMOS Challenge 2026},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{hhttps://github.com/voicemos-challenge/vmc2026-baselines}}
+}
+```
+
 ## Organizers
 
 - Wen-Chin Huang & Tomoki Toda (Nagoya University, Japan)
